@@ -5,7 +5,7 @@ export default function Page() {
 		<>
 			<div className="container">
 				<h1>Privacy Policy</h1>
-				<p>Effective Date: [Insert Date]</p>
+				<p>Effective Date: {new Date().toDateString()}</p>
 
 				<h2>1. Introduction</h2>
 				<p>
@@ -80,7 +80,7 @@ export default function Page() {
 				</p>
 
 				<h2>10. Contact Us</h2>
-				<p>If you have any questions or concerns about this Privacy Policy, please contact us at [Insert Contact Information].</p>
+				<p>If you have any questions or concerns about this Privacy Policy, please contact us at legal@xernerx.xyz.</p>
 
 				<p>Thank you for trusting Xernerx Studios with your data!</p>
 			</div>

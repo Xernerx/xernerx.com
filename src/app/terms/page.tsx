@@ -5,12 +5,12 @@ export default function Page() {
 		<>
 			<div className="container">
 				<h1>Terms of Service</h1>
-				<p>Effective Date: [Insert Date]</p>
+				<p>Effective Date: {new Date().toDateString()}</p>
 
 				<h2>1. Introduction</h2>
 				<p>
-					Welcome to Xernerx Studios! By accessing or using our services, you agree to comply with and be bound by the following Terms of Service ("ToS"). If you do not agree with these terms, please
-					do not use our services.
+					Welcome to Xernerx Studios! By accessing or using our services, you agree to comply with and be bound by the following Terms of Service (\"ToS\"). If you do not agree with these terms,
+					please do not use our services.
 				</p>
 
 				<h2>2. Use of Services</h2>
@@ -68,7 +68,7 @@ export default function Page() {
 				</p>
 
 				<h2>10. Contact Us</h2>
-				<p>If you have any questions or concerns about these Terms of Service, please contact us at [Insert Contact Information].</p>
+				<p>If you have any questions or concerns about these Terms of Service, please contact us at legal@xernerx.xyz.</p>
 
 				<p>Thank you for using our services!</p>
 			</div>
