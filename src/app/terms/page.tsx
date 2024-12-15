@@ -3,14 +3,14 @@
 export default function Page() {
 	return (
 		<>
-			<div className="container">
+			<div className={`container`}>
 				<h1>Terms of Service</h1>
 				<p>Effective Date: {new Date().toDateString()}</p>
 
 				<h2>1. Introduction</h2>
 				<p>
-					Welcome to Xernerx Studios! By accessing or using our services, you agree to comply with and be bound by the following Terms of Service (\"ToS\"). If you do not agree with these terms,
-					please do not use our services.
+					Welcome to Xernerx Studios! By accessing or using our services, you agree to comply with and be bound by the following Terms of Service (ToS). If you do not agree with these terms, please do
+					not use our services.
 				</p>
 
 				<h2>2. Use of Services</h2>
