@@ -1,27 +1,37 @@
 /** @format */
 
 import type { Metadata } from 'next';
-
-import Footer from '@/components/Footer';
-import Header from '@/components/Header';
 import './globals.css';
+
+import Header from '@/components/Header';
+import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
 	title: 'Xernerx Studios',
-	description: '',
+	description: 'Simplifying the complex',
+	icons: {
+		icon: [
+			{ url: '/icons/icon.svg', media: '(prefers-color-scheme: light)' },
+			{ url: '/icons/favicon.svg', media: '(prefers-color-scheme: dark)' },
+		],
+	},
 };
 
-export default function RootLayout({
+export default async function RootLayout({
 	children,
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
 	return (
 		<html lang="en">
-			<body className={''}>
-				<Header></Header>
+			<body className={``}>
+				<header>
+					<Header />
+				</header>
 				<main>{children}</main>
-				<Footer></Footer>
+				<footer>
+					<Footer />
+				</footer>
 			</body>
 		</html>
 	);

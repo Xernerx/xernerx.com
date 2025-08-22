@@ -3,7 +3,7 @@
 export default function Page() {
 	return (
 		<>
-			<div className={`container`}>
+			<div className={`container ml-[10rem] mr-[10rem] `}>
 				<h1>Terms of Service</h1>
 				<p>Effective Date: {new Date().toDateString()}</p>
 
