@@ -27,8 +27,8 @@ export default function Header() {
 						<Api className="icon" />
 					</button>
 				</Link>
-				<Link href="https://hosting.xernerx.com">
-					<button title="Hosting Panel">
+				<Link href="https://xernerx.com/hosting">
+					<button title="Hosting">
 						<Cloud className="icon" />
 					</button>
 				</Link>

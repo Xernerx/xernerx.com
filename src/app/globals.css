@@ -77,6 +77,14 @@ button:hover {
 	cursor: pointer;
 }
 
+.button-link {
+	text-decoration: none;
+	background-color: black;
+	padding-top: 0.5rem;
+	padding-bottom: 0.5rem;
+	border-radius: 0.5rem;
+}
+
 .banner {
 	max-width: 50%;
 	margin: 0 auto;
