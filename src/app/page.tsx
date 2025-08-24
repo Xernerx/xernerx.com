@@ -2,6 +2,8 @@
 
 import Link from 'next/link';
 import NPM from '@/../public/icons/npm.svg';
+import API from '@/../public/icons/api.svg';
+import Dashboard from '@/../public/icons/dashboard.svg';
 import Github from '@/../public/icons/github.svg';
 
 export default function Home() {
@@ -31,12 +33,23 @@ export default function Home() {
 					<div className="card card-content">
 						<h2>Services</h2>
 						<p className="card-content">
-							<Link className="mt-2 mb-2" href="https://app.xernerx.com">
-								Stats webpage
-							</Link>
-							<Link className="mt-2 mb-2" href="https://api.xernerx.com">
-								Stats Tracking
-							</Link>
+							<div className="flex justify-between mt-2 mb-2">
+								Statistics Dashboard
+								<p className="flex gap-3">
+									<Link href="https://app.xernerx.com">
+										<Dashboard className="icon" />
+									</Link>
+								</p>
+							</div>
+
+							<div className="flex justify-between mt-2 mb-2">
+								Statistics API
+								<p className="flex gap-3">
+									<Link href="https://api.xernerx.com">
+										<API className="icon" />
+									</Link>
+								</p>
+							</div>
 						</p>
 					</div>
 					<div className="card card-content">

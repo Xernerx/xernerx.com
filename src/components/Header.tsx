@@ -6,6 +6,7 @@ import Link from 'next/link';
 import Icon from '@/../public/icons/icon.svg';
 import Home from '@/../public/icons/home.svg';
 import Cloud from '@/../public/icons/cloud.svg';
+import Dashboard from '@/../public/icons/dashboard.svg';
 import Api from '@/../public/icons/api.svg';
 
 export default function Header() {
@@ -21,6 +22,11 @@ export default function Header() {
 					<Link href="/">
 						<button title="Home">
 							<Home className="icon" />
+						</button>
+					</Link>
+					<Link href="https://app.xernerx.com">
+						<button title="Dashboard">
+							<Dashboard className="icon" />
 						</button>
 					</Link>
 					<Link href="https://api.xernerx.com">
