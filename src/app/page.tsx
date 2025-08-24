@@ -32,7 +32,7 @@ export default function Home() {
 				<div className="grid-container">
 					<div className="card card-content">
 						<h2>Services</h2>
-						<p className="card-content">
+						<div className="card-content">
 							<div className="flex justify-between mt-2 mb-2">
 								Statistics Dashboard
 								<p className="flex gap-3">
@@ -50,7 +50,7 @@ export default function Home() {
 									</Link>
 								</p>
 							</div>
-						</p>
+						</div>
 					</div>
 					<div className="card card-content">
 						<h2>Software</h2>
