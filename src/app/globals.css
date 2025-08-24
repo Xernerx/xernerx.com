@@ -129,3 +129,34 @@ h3 {
 	position: relative;
 	font-weight: 500;
 }
+
+.rainbow {
+	position: relative;
+	border-radius: 0.25rem;
+	overflow: hidden;
+	box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+}
+
+.rainbow::before {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0.3rem;
+	background: linear-gradient(270deg, red, orange, yellow, green, blue, indigo, violet);
+	background-size: 300% 100%;
+	animation: rainbow 10s linear infinite;
+}
+
+@keyframes rainbow {
+	0% {
+		background-position: 0% 0%;
+	}
+	50% {
+		background-position: 100% 0%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}

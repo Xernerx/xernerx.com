@@ -25,9 +25,8 @@ export default async function RootLayout({
 	return (
 		<html lang="en">
 			<body className={``}>
-				<header>
-					<Header />
-				</header>
+				<Header />
+
 				<main>{children}</main>
 				<footer>
 					<Footer />
