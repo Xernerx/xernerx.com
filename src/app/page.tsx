@@ -1,6 +1,5 @@
 /** @format */
 
-import API from '@/../public/icons/api.svg';
 import Dashboard from '@/../public/icons/dashboard.svg';
 import Github from '@/../public/icons/github.svg';
 import Link from 'next/link';
@@ -38,15 +37,6 @@ export default function Home() {
 								<p className='flex gap-3'>
 									<Link href='https://app.xernerx.com'>
 										<Dashboard className='icon' />
-									</Link>
-								</p>
-							</div>
-
-							<div className='flex justify-between mt-2 mb-2'>
-								Statistics API
-								<p className='flex gap-3'>
-									<Link href='https://api.xernerx.com'>
-										<API className='icon' />
 									</Link>
 								</p>
 							</div>
