@@ -26,12 +26,10 @@ export default async function RootLayout({
 	return (
 		<html lang="en">
 			<body className={``}>
+				<Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4242117068384423" crossOrigin="anonymous"></Script>
 				<Header />
 
-				<main>
-					<Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4242117068384423" crossOrigin="anonymous"></Script>
-					{children}
-				</main>
+				<main>{children}</main>
 				<footer>
 					<Footer />
 				</footer>
