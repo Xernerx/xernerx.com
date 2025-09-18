@@ -5,6 +5,7 @@ import './globals.css';
 
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import Script from 'next/script';
 
 export const metadata: Metadata = {
 	title: 'Xernerx Studios',
@@ -27,7 +28,10 @@ export default async function RootLayout({
 			<body className={``}>
 				<Header />
 
-				<main>{children}</main>
+				<main>
+					<Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4242117068384423" crossOrigin="anonymous"></Script>
+					{children}
+				</main>
 				<footer>
 					<Footer />
 				</footer>
