@@ -26,6 +26,7 @@ export default async function RootLayout({
 	return (
 		<html lang="en">
 			<body className={``}>
+				<meta name="google-adsense-account" content="ca-pub-4242117068384423"></meta>
 				<Script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4242117068384423" crossOrigin="anonymous" strategy="afterInteractive"></Script>
 				<Header />
 
